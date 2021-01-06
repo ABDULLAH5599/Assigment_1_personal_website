@@ -1,0 +1,322 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+  /* this is header  section */
+  
+header{
+    background-color: #fffefe;
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header .nav .nav-item a{
+    color: rgb(12, 12, 12);
+    align-items: center;
+    text-decoration: none;
+    margin-right: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+header .nav .nav-item a:hover{
+    color: rgb(252, 32, 124);
+    transition: all .3s ease;
+}
+.nav{
+    float:right;
+    justify-content: space-between;
+    padding:20px 0;
+}
+  /* this is 1st home section style */
+
+.home-heading{
+   font-size: 50px;
+   color: rgb(2, 11, 133);
+}
+.homesection-div1 h2{
+    font-size: 50px;
+  
+}
+.homesection-div1 p{
+    padding-bottom: 10px;
+}
+.myname{
+   color: rgb(252, 214, 1);    
+}
+.homesection-div1{
+    width: 400px;
+    float: left;
+    margin-top: 10%;
+    margin-left: 6%;
+    padding-left: 3%;
+    line-height: 30px;
+}
+.homesection-div2{
+    width: 500px;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+.homesection-div2 img{
+    width: 110%;
+}
+.homesection{
+    height:500px;
+}
+.homesection-div1 .home-link-button{
+    text-decoration: none;
+    padding: 0.8rem 2.3rem;
+    background-image: linear-gradient(45deg,rgb(211, 6, 40),rgb(250, 65, 96) );
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.home-link-button:hover{
+    background: transparent;
+    color: rgb(211, 6, 40);
+    border: 2px solid rgb(211, 6, 40);
+    font-weight: 700;
+}
+  /* this is 2nd section style ,start here */
+
+.aboutsection-div1 img{
+    width: 110%;
+}
+.aboutsection-div1{
+    width: 40%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.aboutsection-div2{
+    width: 40%;
+    float: left;
+    margin-top: 6%;
+   padding-left: 4%;
+   line-height: 30px;
+}
+.aboutsection-div2 h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: crimson;
+}
+.aboutsection-div2 p{
+   padding-bottom: 10px;
+}
+.link-button2{
+    text-decoration: none;
+    padding: 0.8rem 2.2rem;
+    background-image: linear-gradient(45deg,rgb(121, 53, 247),rgb(45, 16, 212) );
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+ 
+
+}
+
+.aboutsection-div2 .link-button2 img{
+     width: 20px;
+     height: 20px;
+     transform: translateX(-2px);
+     transform: translateY(3px);
+}
+.aboutsection{
+    height:700px;
+}
+/* this is 3rd section style ,start here */
+
+.Thirdsection{
+    padding-top: 2rem;
+    height: 650px;
+    background-color: rgb(238, 237, 237)
+}
+.Thirdsection .Third-section-heading{
+     margin-top: 1rem;
+     text-align: center;
+     margin-bottom: 20px;
+     font-weight: 400;
+     font-size: 35px;
+}
+.Third-section-heading span{
+     color:  crimson;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:70px 90px;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.card{
+    width: 370px;
+    height: 380px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 10px 10px 40px rgb(165, 163, 163);
+}
+.card img{
+    width: 340px;
+    height: 213px;
+}
+.card-img{
+   border-radius: 10px;
+   padding-left: 2px;
+   padding-top: 2px;
+}
+.card h2{
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+    font-size: 1.2rem;
+}
+/* this is four section style ,start here */
+
+.parent-div{
+  margin:170px 230px;
+}
+.four-section-img img{
+    width: 906px;
+    height: 267px;
+}
+.four-section-div2{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.four-section-img{
+    position: absolute;
+} 
+.four-section-div2 h1{
+    float: left;
+    margin-top: 90px;
+    margin-left: 40px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+.four-section-div2 .four-section-btn{
+    float: right;
+    border-radius: 5px;
+    padding: 12px 17px;
+    outline: none;
+    border: none;
+    background: linear-gradient(45deg,rgb(246, 34, 69),rgb(253, 13, 181) );
+    margin-top: 105px;
+    margin-right: 95px;
+}
+.four-section-div2 .four-section-btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    background-attachment: fixed;
+    align-items: center;
+}
+.four-section-div3{
+    padding-top:350px;
+    padding: 0 210;
+    text-align: center;
+}
+.four-section-div3 h2{
+    color: rgb(70, 70, 70);
+    margin-left: 10px;
+}
+.four-section-div3 h1{
+    color: rgb(70, 70, 70);
+}
+.four-section-div4 img{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+/* this is %th section style ,start here */
+
+.contact-heading{
+    text-align: center;
+    padding-top: 30px;
+}
+.contact-heading span{
+    color: crimson;
+}
+.contact-section{
+    height: 800px;
+    background: rgb(218, 219, 217);
+}
+.contact-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:0 160px;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 70px;  
+}
+.contact-card{
+  text-align: center;
+}
+.contact-card h2{
+    color: crimson;
+    font-weight: 400;
+}
+.contact-card h6{
+    color: rgb(65, 65, 65);
+}
+.contact-form{
+    margin:0 160px;
+}
+.contact-input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    margin-bottom: 2rem; 
+}
+.contact-input-wrap2{
+    display: flex;
+    flex-direction: column;
+}
+.contact-section input{
+    padding:0.5rem;
+    border: 1px solid crimson;
+}
+.contact-input-wrap2 input{
+    margin-bottom: 2rem;
+    border: 1px solid crimson;
+}
+.contact-input-wrap2 textarea{
+    margin-bottom: 30px;
+    padding:0.5rem;
+    border: 1px solid crimson;
+}
+.contact-form-button button{
+    padding: 0.8rem 2.5rem;
+    background:  linear-gradient(45deg,rgb(246, 34, 69),rgb(253, 13, 181) );
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.contact-form-button{
+    text-align: center;
+}
+/* this is footer section style ,start here */
+footer p{
+    text-align: center; 
+}
+footer{
+    background: rgb(218, 219, 217);
+    padding:20px 0;
+}
